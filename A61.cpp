@@ -37,6 +37,6 @@ void getListprime(int begin, int end)
 		if (j > (i / 2))
 			cout << i << "\t ";
 	}
-	cout << endl;
+	cout << "\t";
 }
 // comments
