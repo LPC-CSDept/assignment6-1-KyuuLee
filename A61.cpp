@@ -11,7 +11,7 @@ int main()
 
 	do
 	{
-		// cout << "Enter your two inputs\n";
+		cout << "Enter your two inputs\n";
 		cin >> begin >> end;
 	} while (inputValidate(begin, end));
 
