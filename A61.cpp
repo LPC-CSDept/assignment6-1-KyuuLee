@@ -21,7 +21,10 @@ int main()
 int inputValidate(int begin, int end)
 {
 	if ((begin > end) || (begin < 2) || (end < 0))
+	{
+		cout << "Invalid input\n";
 		return 1;
+	}
 	else
 		return 0;
 }
