@@ -38,3 +38,4 @@ void getListprime(int begin, int end)
 			cout << i << "\t";
 	}
 }
+// comments
