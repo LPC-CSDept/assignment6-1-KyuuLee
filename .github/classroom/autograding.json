@@ -19,6 +19,16 @@
       "comparison": "regex",
       "timeout": 10,
       "points": null
+    },
+    {
+      "name": "T3",
+      "setup": "",
+      "run": "g++ A61.cpp && ./a.out",
+      "input": "50 40\r\n10 20",
+      "output": "[11, 13, 17, 19]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
