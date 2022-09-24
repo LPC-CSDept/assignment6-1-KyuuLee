@@ -9,6 +9,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": null
+    },
+    {
+      "name": "T2",
+      "setup": "",
+      "run": "g++ A61.cpp && ./a.out",
+      "input": "50 60",
+      "output": "[53, 59]",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
