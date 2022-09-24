@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "T1",
+      "setup": "",
+      "run": "g++ A61.cpp && ./a.out",
+      "input": "2 10",
+      "output": "2 3 5 7",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
